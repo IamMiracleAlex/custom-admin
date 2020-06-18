@@ -84,10 +84,10 @@ class UserMetricAdmin(admin.ModelAdmin):
 
 
 
-
 @admin.register(User)
 class MyUserAdmin(UserAdmin, ExportCsvMixin):
-
+    date_hierarchy = 'date_joined'
+    
     def full_name(self, obj):
         return ("%s %s" % (obj.first_name, obj.last_name)).title()
 
