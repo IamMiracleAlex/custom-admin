@@ -1,6 +1,8 @@
 # custom-admin
 Customizing your Django Admin!!
 
+Customizing the django admin, create user metrics, send mails to users with a button click, deactivate/activate a user with a button, etc
+
 **To run locally:**  
 >  cd Desktop (or any location for your choice)  
     
